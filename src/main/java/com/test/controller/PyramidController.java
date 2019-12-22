@@ -22,8 +22,8 @@ public class PyramidController{
 	@GetMapping(value = "/{inputKey}")
 	public static boolean checkPyramid(@PathVariable("inputKey") String inputKey) {
 		
-		PyramidServiceImpl t = new PyramidServiceImpl();
-		boolean result = t.isPyramid(inputKey);
+		PyramidServiceImpl pyramidService = new PyramidServiceImpl();
+		boolean result = pyramidService.isPyramid(inputKey);
 		return result;
 		
 	}
