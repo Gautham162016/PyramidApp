@@ -1,4 +1,4 @@
-package services.impl;
+package com.sampleapp.pyramid.services.impl;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
-import services.PyramidService;
+import com.sampleapp.pyramid.services.PyramidService;
 @Service
 public class PyramidServiceImpl implements PyramidService{
 

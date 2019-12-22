@@ -1,4 +1,4 @@
-package com.pyramidapp.main;
+package com.sampleapp.pyramid.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -11,7 +11,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableAsync;
 
-import com.test.controller.PyramidController;
+import com.sampleapp.pyramid.controller.PyramidController;
 
 
 

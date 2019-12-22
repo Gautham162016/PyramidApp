@@ -1,4 +1,4 @@
-package services;
+package com.sampleapp.pyramid.services;
 
 public interface PyramidService {
 	
